@@ -57,6 +57,11 @@ public class Prestamos_act extends AppCompatActivity {
             saldo = 750000;
         else if (cliente.equals("Roxana"))
             saldo = 900000;
+        else if (cliente.equals("Matias"))
+            saldo = 500000;
+        else if (cliente.equals("Betzabe"))
+            saldo = 1000000;
+
         if(credito.equals("Crédito Hipotecario")) {
             prestamo = Integer.parseInt(tipo_credito.getHipotecario());
             cuotas= tipo_credito.getCuotaHipotecaria();
